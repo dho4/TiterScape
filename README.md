@@ -9,7 +9,7 @@
 ---
 ### Execution:
 1. Open the terminal in your computer by typing "cmd", "terminal", or "command prompt" in the search bar. A black screen will be prompted.
-2. To execute, type "python titerscape.py <output.csv> <IgG_Cutoff> <IgA_Cutoff> <IgM_Cutoff>"
+2. To execute, type "python titerscape.py <output.xlsx> <IgG_Cutoff> <IgA_Cutoff> <IgM_Cutoff>"
     * i.e. python titerscape.py Gal8.csv 0.3 0.2 0.3
 
 ---
@@ -23,4 +23,7 @@
 * Expected outputs:
     * one csv file
     * IgG, IgM, IgA graphs
+---
+### Tutorial
+* Follow the tutorial video in case you have questions
 
