@@ -141,7 +141,9 @@ def load_file(dict):
         data.columns = header    
         ID = pd.DataFrame({"Sample ID": ID_list[key-1]})
 
-        input_name.append(re.split('V-2|\+', str(input_data[key-1]))[1]) #retrive file names
+        #input_name.append(re.split('V-2|\+', str(input_data[key-1]))[1]) #retrive file names
+        ####### FIX THIS!!!!!
+        input_name.append(input_data[key-1])
 
         result = pd.concat([col_num,  ID, data], axis=1)
         output[key] = result
