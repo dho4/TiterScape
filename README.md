@@ -16,7 +16,10 @@
 ### File Input Requirements
 * Excel files only (no input number limit)
 * There is some level of hard coding involved (for data cleaning purposes), which means the file input structure must match with TiterScape's desired format. Checkout "sample1.xlsx" for reference. 
-    * Each excel file needs to have 24 samples 
+    * Each excel file needs to have 24 samples and 3 antibodies in the order of IgG, IgA, and IgM
+    * ID column (column C in the sample): sample names
+    * Follow the input requirements video for furthur details
+
 ---
 ### File Output Requirements
 * csv file type only
